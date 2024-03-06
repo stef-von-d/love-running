@@ -59,7 +59,6 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
@@ -85,14 +84,19 @@ nav {
     font-size: 2 rem;
 }
 
-
 /* Main Content */
 main {
-    background-color: lightblue;
     /* make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
+
 
 /* Footer */
 #social-networks {
